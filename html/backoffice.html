@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backoffice</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/backoffice.css">
+</head>
+
+<body>
+    <div class="image">
+        <div class="text-image">
+            <div class="d-flex bd-highlight mb-3 menu-top">
+
+                <div class="mr-auto p-2 bd-highlight">
+                    <a class="text-light logo" href="#">
+                        <h3>dinnerdash</h3>
+                    </a>
+                </div>
+                <div class="p-2 bd-highlight">
+                    <a class="text-warning current font-weight-bold" href="#">backoffice</a>
+                </div>
+                <div class="p-2 bd-highlight">
+                    <a class="text-light font-weight-bold" href="#">perfil</a>
+                </div>
+                <div class="p-2 bd-highlight">
+                    <a class="text-light font-weight-bold" href="#">sair</a>
+                </div>
+            </div>
+            <div class="menu-top text-align">
+                <h1>Backoffice</h1>
+                <h2>Gerencie pedidos, refeições e mais.</h2>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="nav-align collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Pedidos <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Usuários</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Refeições</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Categorias de refeições</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="table-responsive">
+        <table class="container table-align table table-hover">
+            <thead class="thead-light">
+                <tr>
+                    <th>Pedidos de nº</th>
+                    <th>Status</th>
+                    <th>Data</th>
+                    <th>Usuário</th>
+                    <th>Preço total</th>
+                    <th>Detalhes</th>
+                    <th colspan="2"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>103849</td>
+                    <td><span class="badge badge-primary d-block" style="height:100%;">pendente</span></td>
+                    <td>30/11/2017</td>
+                    <td>Rafael</td>
+                    <td>R$ 72,00</td>
+                    <td>
+                        <a href="#" class="alert-link"> ver itens pedidos</a>
+                    </td>
+                    <td>
+                        <a href="#" class="text-warning alert-link"> editar</a>
+                    </td>
+                    <td>
+                        <a href="#"class="text-danger alert-link" > excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>103849</td>
+                    <td><span class="badge badge-success d-block">entregue</span></td>
+                    <td>30/11/2017</td>
+                    <td>Rafael</td>
+                    <td>R$ 105,00</td>
+                    <td>
+                        <a href="#" class="alert-link"> ver itens pedidos</a>
+                    </td>
+                    <td>
+                        <a href="#" class="text-warning alert-link"> editar</a>
+                    </td>
+                    <td>
+                        <a href="#"class="text-danger alert-link" > excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>102453</td>
+                    <td><span class="badge badge-danger d-block">cancelado</span></td>
+                    <td>15/11/2017</td>
+                    <td>Rafael</td>
+                    <td>R$ 90,00</td>
+                    <td>
+                        <a href="#" class="alert-link"> ver itens pedidos</a>
+                    </td>
+                    <td>
+                        <a href="#" class="text-warning alert-link"> editar</a>
+                    </td>
+                    <td>
+                        <a href="#"class="text-danger alert-link" > excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>101270</td>
+                    <td><span class="badge badge-success d-block">entregue</span></td>
+                    <td>02/11/2017</td>
+                    <td>Rafael</td>
+                    <td>R$ 145,00</td>
+                    <td>
+                        <a href="#" class="alert-link"> ver itens pedidos</a>
+                    </td>
+                    <td>
+                        <a href="#" class="text-warning alert-link"> editar</a>
+                    </td>
+                    <td>
+                        <a href="#"class="text-danger alert-link" > excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>101103</td>
+                    <td><span class="badge badge-success d-block">entregue</span></td>
+                    <td>01/11/2017</td>
+                    <td>Pedro</td>
+                    <td>R$ 55,00</td>
+                    <td>
+                        <a href="#" class="alert-link"> ver itens pedidos</a>
+                    </td>
+                    <td>
+                        <a href="#" class="text-warning alert-link"> editar</a>
+                    </td>
+                    <td>
+                        <a href="#"class="text-danger alert-link" > excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>101034</td>
+                    <td><span class="badge badge-success d-block">entregue</span></td>
+                    <td>30/11/2017</td>
+                    <td>Augusto</td>
+                    <td>R$ 70,00</td>
+                    <td>
+                        <a href="#" class="alert-link"> ver itens pedidos</a>
+                    </td>
+                    <td>
+                        <a href="#" class="text-warning alert-link"> editar</a>
+                    </td>
+                    <td>
+                        <a href="#"class="text-danger alert-link" > excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>101012</td>
+                    <td><span class="badge badge-danger d-block">cancelado</span></td>
+                    <td>27/11/2017</td>
+                    <td>Pedro</td>
+                    <td>R$ 90,00</td>
+                    <td>
+                        <a href="#" class="alert-link"> ver itens pedidos</a>
+                    </td>
+                    <td>
+                        <a href="#" class="text-warning alert-link"> editar</a>
+                    </td>
+                    <td>
+                        <a href="#"class="text-danger alert-link" > excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>101003</td>
+                    <td><span class="badge badge-success d-block">entregue</span></td>
+                    <td>23/11/2017</td>
+                    <td>Flávio</td>
+                    <td>R$ 185,00</td>
+                    <td>
+                        <a href="#" class="alert-link"> ver itens pedidos</a>
+                    </td>
+                    <td>
+                        <a href="#" class="text-warning alert-link"> editar</a>
+                    </td>
+                    <td>
+                        <a href="#"class="text-danger alert-link" > excluir</a>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
