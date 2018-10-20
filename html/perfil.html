@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/perfil.css">
+</head>
+
+<body>
+    <div class="container-fluid image">
+        <div class="text-image">
+            <div class="d-flex bd-highlight mb-3 menu-top">
+
+                <div class="mr-auto p-2 bd-highlight">
+                    <a class="text-light logo" href="#">
+                        <h3>dinnerdash</h3>
+                    </a>
+                </div>
+                <div class="p-2 bd-highlight">
+                    <a class="text-light current font-weight-bold" href="#">perfil</a>
+                </div>
+                <div class="p-2 bd-highlight">
+                    <a class="text-light font-weight-bold" href="#">sair</a>
+                </div>
+            </div>
+            <div class="menu-top text-align">
+                <h1>Seu Perfil</h1>
+                <h2>Atualize os seus dados pessoais e senha.</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <form class="my_form">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="idNome">Nome</label>
+                    <input class="form-control" id="idNome" type="text" placeholder="Matheus">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="idEmail">Email</label>
+                    <input class="form-control" id="idEmail" type="email" placeholder="matheus@example.com">
+                </div>
+            </div>
+            <div class="form-row">
+                    <div class="form-group col-md-6">
+                    <label for="idSenhaAtual">Nova senha (deixe em branco caso não queira alterar)</label>
+                    <input class="form-control" id="idSenhaAtual" type="password">
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="idNovaSenha">Senha atual, por questão de segurança</label>
+                    <input class="form-control" id="idNovaSenha" type="password">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <input class="btn btn-success form-control" type="submit" value="atualizar meu perfil">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="fixed-bottom d-flex my_footer">
+        <p class="text-muted font-weight-bold mr-auto">dinnerdash | todos os direitos reservados</p>
+        <p class="text-muted">desenvolvido por Matheus Rodrigues</p>
+    </div>
+</body>
+
+</html>
